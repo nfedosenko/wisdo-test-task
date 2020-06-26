@@ -52,7 +52,9 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     textAlign: "center",
-    justifyContent: "center",
+  },
+  contentSuccess: {
+    justifyContent: "center"
   },
   helpTitle: {
     color: "#8b5ffe",
@@ -256,7 +258,7 @@ export default function JoinCommunityModal({ modalData, onClose }) {
       )}
 
       {isSuccess ? (
-        <DialogContent className={classes.contentRoot}>
+        <DialogContent className={[classes.contentRoot, classes.contentSuccess]}>
           <Typography className={classes.title}>
             We are so glad you joined!
           </Typography>
