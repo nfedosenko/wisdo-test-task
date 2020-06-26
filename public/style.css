@@ -1,0 +1,7 @@
+.BrainhubCarousel .BrainhubCarousel__trackContainer .BrainhubCarousel__track {
+    align-items: flex-start;
+}
+
+.BrainhubCarousel__arrows {
+    align-self: flex-start;
+}

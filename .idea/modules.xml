@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WisdoTestTask.iml" filepath="$PROJECT_DIR$/.idea/WisdoTestTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wisdo-test-task/.idea/wisdo-test-task.iml" filepath="$PROJECT_DIR$/../wisdo-test-task/.idea/wisdo-test-task.iml" />
     </modules>
   </component>
 </project>
